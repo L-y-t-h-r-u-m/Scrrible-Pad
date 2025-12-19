@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+}
+
+*{  
+    margin: 0px 0px;
+     font-family: 'Montserrat' ,Arial, sans-serif;
+     font-weight: 500;
+}
+
+canvas{
+    border: 2px solid #333;
+    background: #fff;
+    cursor: crosshair;
+}
+
+.controls{
+    display:flex;
+    margin-top: 10px;
+    width: 500px;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.label{
+    font-size:14px;
+}
+
+button:hover{
+    background: #ff7a00;
+    transition: 0.5s ease;
+}
+
+input[type="color"]{
+    margin-left: 10px;
+    cursor: pointer;
+}
